@@ -2,7 +2,7 @@ package nullability.java;
 
 public class Main {
     public static void main(String[] args) {
-        Cat cat = CatPool.getCat();
+        Cat cat = CatPool.getCatFromPool();
 
         if (cat != null) {
             if (cat.getFur() != null) {
