@@ -12,7 +12,7 @@ public class Main {
                 cat.getHuman().feedCat();
             }
         }
-    //<more code>
+        //<more code>
 
         if (cat != null) {
             cat.eat();

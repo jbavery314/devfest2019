@@ -4,7 +4,7 @@ import java.lang.StringBuilder
 
 fun Int.even() = this % 2 == 0
 
-fun String.alternate(): String {
+fun String.alternateCase(): String {
     val destination = StringBuilder()
     for (i in 0 until length) {
         val element = get(i)
