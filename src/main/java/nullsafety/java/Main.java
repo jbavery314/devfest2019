@@ -1,8 +1,8 @@
-package nullability.java;
+package nullsafety.java;
 
 public class Main {
     public static void main(String[] args) {
-        Cat cat = CatPool.getCatFromPool();
+        Cat cat = CatPool.getCat();
 
         if (cat != null) {
             if (cat.getFur() != null) {
@@ -12,7 +12,7 @@ public class Main {
                 cat.getHuman().feedCat();
             }
         }
-//<more code>
+    //<more code>
 
         if (cat != null) {
             cat.eat();

@@ -1,4 +1,4 @@
-package nullability.java;
+package nullsafety.java;
 
 class Fur {
     public void scatter() {

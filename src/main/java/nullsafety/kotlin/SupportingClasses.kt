@@ -1,4 +1,4 @@
-package nullability.kotlin
+package nullsafety.kotlin
 
 class Fur {
     fun scatter() = println("Fur scattered")

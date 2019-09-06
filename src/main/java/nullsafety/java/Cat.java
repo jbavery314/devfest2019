@@ -1,17 +1,17 @@
-package nullability.java;
+package nullsafety.java;
 
 public class Cat {
     private int age;
     private Fur fur;
     private Human human;
 
-    public Cat() {
+    Cat() {
         age = 5;
         fur = new Fur();
         human = new Human();
     }
 
-    public void eat() {
+    void eat() {
         System.out.println("Cat is eating.");
     }
 
@@ -23,7 +23,7 @@ public class Cat {
         this.age = age;
     }
 
-    public Fur getFur() {
+    Fur getFur() {
         return fur;
     }
 
@@ -31,7 +31,7 @@ public class Cat {
         this.fur = fur;
     }
 
-    public Human getHuman() {
+    Human getHuman() {
         return human;
     }
 
