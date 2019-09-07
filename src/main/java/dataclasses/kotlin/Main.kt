@@ -20,7 +20,7 @@ fun main() {
     )
 
     val gson = GsonBuilder().setPrettyPrinting().create()
-//    println(gson.toJson(courtCase))
+    println(gson.toJson(courtCase))
     
 //    println("First and last charges equal: ${courtCase.charges.first() == courtCase.charges.last()}")
 //
